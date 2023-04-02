@@ -1,0 +1,41 @@
+C:\Users\oh25895\OneDrive - SSE PLC\Documents\2537336@dundee.ac.uk\Assignments\Information Systems\Term 2\2\git>git init
+Initialized empty Git repository in C:/Users/oh25895/OneDrive - SSE PLC/Documents/2537336@dundee.ac.uk/Assignments/Information Systems/Term 2/2/git/.git/
+
+C:\Users\oh25895\OneDrive - SSE PLC\Documents\2537336@dundee.ac.uk\Assignments\Information Systems\Term 2\2\git>git add .
+
+C:\Users\oh25895\OneDrive - SSE PLC\Documents\2537336@dundee.ac.uk\Assignments\Information Systems\Term 2\2\git>git commit -m "initializing assignment 2 repo"
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\oh25895\OneDrive - SSE PLC\Documents\2537336@dundee.ac.uk\Assignments\Information Systems\Term 2\2\git>git remote add origin https://github.com/2537336/Assignment2.git
+
+C:\Users\oh25895\OneDrive - SSE PLC\Documents\2537336@dundee.ac.uk\Assignments\Information Systems\Term 2\2\git>git branch -m master main
+
+C:\Users\oh25895\OneDrive - SSE PLC\Documents\2537336@dundee.ac.uk\Assignments\Information Systems\Term 2\2\git>git fetch origin
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 623 bytes | 103.00 KiB/s, done.
+From https://github.com/2537336/Assignment2
+ * [new branch]      main       -> origin/main
+
+C:\Users\oh25895\OneDrive - SSE PLC\Documents\2537336@dundee.ac.uk\Assignments\Information Systems\Term 2\2\git>git branch -u origin/main main
+fatal: No commit on branch 'main' yet.
+
+C:\Users\oh25895\OneDrive - SSE PLC\Documents\2537336@dundee.ac.uk\Assignments\Information Systems\Term 2\2\git>git commit -m "updated main branch"
+On branch main
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        answer.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\oh25895\OneDrive - SSE PLC\Documents\2537336@dundee.ac.uk\Assignments\Information Systems\Term 2\2\git>git remote set-head origin -a
+origin/HEAD set to main
